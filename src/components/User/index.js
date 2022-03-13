@@ -2,12 +2,14 @@ import React from "react";
 
 import Avatar from '../../assets/avatar.svg'
 
+import {Container} from "./style"
+
 const User = () => {
     return (
-        <div>
+        <Container>
             <span>romim</span>
             <img src={Avatar} alt="" />
-        </div>
+        </Container>
     )
 }
 
