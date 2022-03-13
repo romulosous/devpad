@@ -1,9 +1,17 @@
 import React from "react";
 
-const Title = () => {
-    return (
-        <h1>Titulo</h1>
-    )
-}
+import {Container, Caption, InclinedSide, MiddleSlope } from "./style";
 
-export default Title
+const Title = ({ children }) => {
+  return (
+    <Container>
+      <InclinedSide />
+      <MiddleSlope>
+      <Caption>{children}</Caption>
+      </MiddleSlope>
+      <InclinedSide />
+    </Container>
+  );
+};
+
+export default Title;

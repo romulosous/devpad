@@ -13,9 +13,9 @@ const Header = () => {
         src={Logo}
         alt="simbolo de uma tag de fechamento e um texto 'devpad'"
       />
-      <Title />
+      <Title>Meu Titulo</Title>
       <User />
-    </Container>
+    </Container> 
   );
 };
 
